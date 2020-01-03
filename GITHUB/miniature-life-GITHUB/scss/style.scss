@@ -1,0 +1,570 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px;
+  color: rgb(80,80,80);
+
+}
+
+.modal-content {
+	height: 100%;
+  width: auto;
+
+}
+
+.modal-content > img {
+  width: 100%;
+
+}
+
+.modal {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) { 
+  .modal {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  max-height: 500px;
+  max-width: 600px;
+  min-width: 300px;
+  position: static;
+  right: 0;
+  top: 0;
+  overflow: hidden;
+}
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+
+
+/*.modZ:hover {
+	margin-top: 25vh;
+	transform:translateY(-50%);
+	transform:scale(2);
+
+}*/
+
+
+#aaa {
+
+	background-image:linear-gradient(rgba(250,250,250,0.75),rgba(0,0,0,.35)),url("https://1.bp.blogspot.com/-5q34AXTzN6o/Xg3RjiF2IxI/AAAAAAAALow/MlYB1B1YfUMg239BU3yTi_H8YW_2LvRrACLcBGAsYHQ/s1600/landing.jpeg");
+	background-attachment: fixed;
+	-webkit-background-image:linear-gradient(rgba(250,250,250,0.75),rgba(0,0,0,.35)),url("https://1.bp.blogspot.com/-5q34AXTzN6o/Xg3RjiF2IxI/AAAAAAAALow/MlYB1B1YfUMg239BU3yTi_H8YW_2LvRrACLcBGAsYHQ/s1600/landing.jpeg");
+	-webkit-background-attachment: fixed;
+	-moz-background-image:linear-gradient(rgba(250,250,250,0.75),rgba(0,0,0,.35)),url("https://1.bp.blogspot.com/-5q34AXTzN6o/Xg3RjiF2IxI/AAAAAAAALow/MlYB1B1YfUMg239BU3yTi_H8YW_2LvRrACLcBGAsYHQ/s1600/landing.jpeg");
+	-moz-background-attachment: fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+	height: 100vh;
+
+}
+
+$theme-colors: (
+  "primary": #ebc934,
+  "secondary": #7fab27,
+  "transparent1":rgba(235, 201, 52, 0.1),
+  "transparent2":rgba(127, 171, 39, 0.1),
+  "transparent3":rgba(250, 250, 250, 0.85),
+  "transparent4":rgba(10, 10, 10, 0.5)
+);
+
+
+.navbar-icons {
+  height: 20px;
+}
+
+.h1-icons {
+  height: 54px;
+}
+
+
+.landZ {
+	margin-top: 0px;
+	padding-top: 150px;
+}
+
+.headZ {
+	margin:20px auto;
+	padding-top:15px;
+
+}
+
+.paraZ {
+	margin:25px auto;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 20px;
+	color: rgb(70,70,70);
+}
+
+
+.paraSVC {
+	padding: 35px 5px;
+}
+
+.buttonZ {
+	
+	margin-right: 15px;
+}
+
+.buttonZX {
+	
+	margin-top: 30px;
+}
+
+.big {
+	font-size: 60px;
+	color: #ebc934;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.homeZ {
+	font-size: 50px;
+	text-shadow: 1px 1px 2px #000000;
+}
+
+
+.monts {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 45px;
+	font-weight: bold;
+	color: rgb(100,100,100);
+}
+
+.montsZ {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: rgb(250,250,250);
+}
+
+// .upZ {
+// 	width: 100%;
+// 	padding: 20px;
+// }
+
+
+.footerZ {
+	position: relative;
+	bottom: 0;
+	width: 100%;
+}
+
+.footerZabout {
+	position: relative;
+	bottom: 0;
+	width: 100%;
+}
+
+.footerZcontact {
+	position: relative;
+	bottom: 0;
+	width: 100%;
+}
+
+.footer {
+  background-color: #7fab27;
+}
+
+.social-list {
+  list-style: none;
+  
+
+}
+
+.social-list li {
+  display: inline;
+  padding-right: 5px;
+}
+
+.social-icons {
+  width: 30px;
+  filter: drop-shadow(1px 0px 0px rgb(50,50,50));
+}
+
+.social-icons:hover {
+  filter:drop-shadow(-2px 2px 3px rgba(0, 255, 0,1))  drop-shadow(-10px 10px 14px rgba(0, 255, 0,1));
+}
+
+.navigation-list {
+  list-style: none;
+  
+
+}
+
+.navigation-list li {
+  text-decoration: none;
+}
+
+.intro-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
+  font-weight: bolder;
+  color: white;
+  margin-bottom: 15px;
+  border-bottom: 3px solid #ebc934;
+}
+
+.intro-heading > img {
+  height: 1.25rem;
+  filter: drop-shadow(1px 0px 0px white);
+}
+
+#footer-gallery {
+  width: 100%;
+  clear: both;
+}
+
+#miniaturelife {
+	
+background-image: linear-gradient(rgba(250,250,250,0.5),rgba(0,0,0,0.15));
+ border-radius: 10px;
+}
+
+.progress-bar {
+  background: red;
+}
+
+#success1 {
+	width: 98%;
+  
+}
+
+#success2 {
+	width: 50%;
+
+}
+
+#success3 {
+	width: 33%;
+}
+
+#success4 {
+	width: 100%;
+}
+
+
+
+html {
+	scroll-behavior: smooth;
+}
+
+#projects {
+	padding-top: 70px;
+}
+
+#offer {
+	padding-top: 70px;
+}
+
+#about {
+	padding-top: 70px;
+}
+
+#contact {
+	padding-top: 70px;
+}
+
+
+
+.logoZ {
+	width: 80%;
+}
+
+
+
+.buttonG {
+	padding: 10px auto;
+	margin: 10px auto;
+  filter: drop-shadow(1px 1px 1px rgba(50,50,50,.95));
+}
+
+.socialZ {
+	font-size: 30px;
+	color: #7fab27;
+
+}
+
+.gifofferZ {
+	height: 150px;
+}
+
+.textareaZ {
+	width: 100%;
+	height: 65px;
+
+}
+
+.redZ {
+	color: red;
+}
+
+.learnZ {
+	font-size: 20px;
+	text-decoration: none;
+
+}
+
+.learnZ a:hover {
+	background-color: rgba(235, 201, 52, 0.1);
+	text-decoration: none;
+}
+
+.card-modal {
+  width: 90%;
+  height: auto;
+}
+.card-body {
+  height: 60px;
+}
+ .index-card {
+  height: 150px;
+ }
+
+.carouselZ {
+	background-color: white;
+	position: relative;
+	top: 500px;
+}
+
+.carousimageZ {
+	width: 100vw;
+	padding: 0;
+	margin: 0;
+}
+
+.nextpicZ {
+	width: 100vw;
+	// padding-top: 150px;
+}
+
+#galvid {
+	
+	background-image: url("https://1.bp.blogspot.com/-qXy63NkoDls/Xg58rqOeyGI/AAAAAAAALrQ/gKLJaFkPjqonGaFxt2qXDAeCkulDGs9ewCLcBGAsYHQ/s1600/house-on-green-landscape-against-sky-314937.jpg");
+  background-attachment: fixed;
+	background-size:cover;
+	height: 75vh;
+
+}
+
+
+.gallery {
+	width: 100%;
+	position: absolute;
+	/*top: 700px;*/
+	background-color: white;
+
+	/*// margin-top: 150px;*/
+}
+
+#gallery-main {
+  box-shadow: 10px 0px 10px rgba(50,50,50,0.7);
+  padding-left: 0;
+  padding-right: 0;
+
+}
+
+
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100vw;
+  z-index: -10; 
+  /*height: 100vh;*/
+  
+}
+
+/* Add some content at the bottom of the video/page */
+.contentZ {
+  position: fixed;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 0;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
+
+/*import things*/
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.nav-link {
+  text-shadow: 0px 2px 5px rgba(250, 250, 250, .9);
+}
+
+
+
+.nav-item:hover > .nav-link {
+	text-decoration: overline;
+	color: #ebc934;
+	background-color: rgba(235, 201, 52, 0.25);
+  border-radius: 7px;
+}
+
+.buttonV {
+	padding: 10px auto;
+  margin: 10px auto;
+  filter: drop-shadow(1px 1px 1px rgba(50,50,50,.95));
+}
+
+#gallery {
+	background-image: url("https://1.bp.blogspot.com/-yL0bLn-soaI/Xg6BLNTuFeI/AAAAAAAALrc/gAR8xWiTaEoDhIRSGbIhiWxvQgW2VwgHwCLcBGAsYHQ/s1600/house-in-the-middle-of-crop-field-3330118.jpg");
+	background-attachment: fixed;
+  background-size: contain;
+  background-position: center;
+}
+
+#jumbZ {
+  background: none;
+}
+
+.cont1Z {
+	background-image: radial-gradient(rgba(250, 250, 250, 0.6), rgba(250, 250, 250, 0.3),rgba(250, 250, 250, 0.2),transparent,transparent,transparent,transparent,transparent,transparent);
+}
+
+.h1Z {
+	text-shadow: 1px 1px 1px white;
+}
+
+.burgerZ {
+	height:30px;
+}
+
+ .navbar-toggler {
+    border: none;
+    box-shadow: none;
+  }
+
+  #navZ {
+    box-shadow: 0px 2px 10px rgba(50,50,50,0.5);
+  }
+
+/*media queries*/
+
+/*iphone4 styling*/
+
+@media only screen and (max-width: 330px) {
+  .phraseX {
+    display: none;
+  }
+
+  .landZ {
+    margin-top: 0px;
+    padding-top: 15vh;
+  }
+
+  #offer {
+  padding-top: 50px;
+  
+
+}
+
+
+
+
+  .buttonZX {
+  margin-top: 0;
+  padding-bottom: 10px;
+}
+
+.headZ {
+  margin-bottom:0;
+  padding-top: 0;
+}
+
+.paraZ {
+  margin: 0px auto;
+  padding-bottom: 0;
+  padding-top: 0;
+  
+}
+
+ 
+  .logoZ {
+		height: 40px;
+    width: auto;
+	}
+}
+
+
+
+
+
+
+/*mobile phone styling*/
+@media only screen and (min-width: 331px) and (max-width: 400px) {
+	
+	.phraseZ {
+		display: none;
+	}
+
+	.landZ {
+	margin-top: 0px;
+	padding-top: 80px;
+
+}
+
+	.logoZ {
+		width: 75%;
+	}
+
+}
+
+/*tablet styling*/
+
+@media only screen and (min-width: 401px) and (max-width: 1024px) {
+
+
+     .phraseZ {
+     		display: none;
+     	}
+
+
+.copyrightZ {
+	display: none;
+}
+	
+}
+
